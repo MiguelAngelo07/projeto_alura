@@ -1,5 +1,6 @@
-// console.log(dados);
-// comentário
+function pesquisar(){
+    
+
 let section = document.getElementById("resultados-pesquisa")
 console.log(section);
 
@@ -15,3 +16,5 @@ for(let dado of dados) {
         <a href=${dado.link} target="_blank">Mais informações</a>
     </div>;`}
 
+    section.innerHTML = resultados
+}
